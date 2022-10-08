@@ -1,13 +1,17 @@
+/*Gives the entire viewable webpage a border size that includes width, height, and padding. This, along with making
+the padding and margin 0, allows the webpage occupy the webpage 100%. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Gives the entire body element of a background color */
 body {
     background-color: #d9dcd6;
 }
 
+/*Gives the header and all child elements properties including padding, font style, background color, and font color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,20 @@ body {
     color: #ffffff;
 }
 
+/*Gives the h1 element within the header a font size and inlines it allowing other containers to be 
+located the the right of this element. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Gives the specific letters "seo" a different font color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Gives the section element located within the header a padding, margin, font family and size. Also floats the list items
+to this right of the main h1 element. */
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +41,24 @@ body {
     font-size: 20px;
 }
 
-.header section ul {
-    list-style-type: none;
-}
-
+/*Gives the list elements seperation by 25 pixels and inlines it next to the header container. */
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Gives all a(anchor) elements a font color and removes the hypertext underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Gives all the <p> elements a font size of 16 pixels */
 p {
     font-size: 16px;
 }
 
+/*Inserts a modified background image that covers 100% width of the page and a bottom margin seperation of 25 pixels */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,26 +68,31 @@ p {
     background-position: center;
 }
 
+/*Floats the and margins the element, providing a space on the right side of 25 pixels */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Floats the and margins the element, providing a space on the left side of 25 pixels*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Provides a width and a margin to parent section element. Also inlines the element to allow adjacent containers */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Clear:both allows an article element to be placed adjacent to the previous floating elements. Both includes both side.
+ Gives the parent section class a margin, padding, font style, and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
+    clear:both;
     float: right;
     width: 20%;
     height: 100%;
@@ -86,24 +100,27 @@ p {
     background-color: #2589bd;
 }
 
-
+/*Provides a bottom margin (spacing from bottom between articles) and a font color */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Spaces the elements beneath this element by 10 pixels and aligns it to the center of the container */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Adjusted the images of the article logos. Margin 10px adjusts the spaces in between the bottom elements and auto adjusts the image
+size to fit within the section container */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/*Used as an ID to allow hyperlink anchor. Provides a margin, padding, height, font family, background color, and font color*/
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -113,16 +130,18 @@ p {
     color: #ffffff;
 }
 
-
+/*Used as an ID to allow hyperlink anchor. Gives the image a max height of 200 pixels */
 #search-engine-optimization img {
     max-height: 200px;
 }
 
+/*Used as an ID to allow hyperlink anchor */
 #search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Used as an ID to allow hyperlink anchor. Provides a margin, padding, height, font family, background color, and font color*/
 #online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -132,16 +151,18 @@ p {
     color: #ffffff;
 }
 
-
+/*Used as an ID to allow hyperlink anchor. Gives the image a max height of 200 pixels */
 #online-reputation-management img {
     max-height: 200px;
 }
 
+/*Used as an ID to allow hyperlink anchor. Provides a bottom margin of 20 pixels and font size. */
 #online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Used as an ID to allow hyperlink anchor. Provides a margin, padding, height, font family, background color, and font color*/
 #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,17 +172,19 @@ p {
     color: #ffffff;
 }
 
-
+/*Used as an ID to allow hyperlink anchor. Gives the image a max height of 200 pixels */
 #social-media-marketing img {
     max-height: 200px;
 }
 
+/*Used as an ID to allow hyperlink anchor. Provides a bottom margin of 20 pixels and font size. */
 #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/*Gives the parent footer element container a padding and font family. Adjusts the text to the center of the webpage and seperates floating
+elements from both sides. */
 .footer {
     padding: 30px;
     clear: both;
@@ -169,6 +192,7 @@ p {
     text-align: center;
 }
 
+/*Adjusts the font size of the h2 child element to 20 pixels. */
 .footer h2 {
     font-size: 20px;
 }
