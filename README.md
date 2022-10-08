@@ -10,7 +10,7 @@
     - Basic HTML and CSS file editor. Visual Studio Code.
 
 ## Usage
-![Horiseon Website Page Screenshot](Develop\assets\images\RefactoredWebpage.png)
+![Horiseon Website Page Screenshot](assets\images\HoriseonScreenshot.png)
     - Basic marketing webpage with anchor links.
     - Click the anchor links to navigate through the page.
 
