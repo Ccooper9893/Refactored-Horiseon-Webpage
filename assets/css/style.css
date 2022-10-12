@@ -120,8 +120,8 @@ size to fit within the section container */
     max-width: 150px;
 }
 
-/*Used as an ID to allow hyperlink anchor. Provides a margin, padding, height, font family, background color, and font color*/
-#search-engine-optimization {
+/*Provides a margin, padding, height, font family, background color, and font color*/
+.main-article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -130,55 +130,13 @@ size to fit within the section container */
     color: #ffffff;
 }
 
-/*Used as an ID to allow hyperlink anchor. Gives the image a max height of 200 pixels */
-#search-engine-optimization img {
+/* Adjusts image within main-article class */
+.main-article img {
     max-height: 200px;
 }
 
-/*Used as an ID to allow hyperlink anchor */
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Used as an ID to allow hyperlink anchor. Provides a margin, padding, height, font family, background color, and font color*/
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Used as an ID to allow hyperlink anchor. Gives the image a max height of 200 pixels */
-#online-reputation-management img {
-    max-height: 200px;
-}
-
-/*Used as an ID to allow hyperlink anchor. Provides a bottom margin of 20 pixels and font size. */
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Used as an ID to allow hyperlink anchor. Provides a margin, padding, height, font family, background color, and font color*/
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Used as an ID to allow hyperlink anchor. Gives the image a max height of 200 pixels */
-#social-media-marketing img {
-    max-height: 200px;
-}
-
-/*Used as an ID to allow hyperlink anchor. Provides a bottom margin of 20 pixels and font size. */
-#social-media-marketing h2 {
+/*Changes h2 element */
+.main-article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
