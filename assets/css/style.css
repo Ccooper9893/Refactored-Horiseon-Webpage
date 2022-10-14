@@ -1,5 +1,5 @@
 
-/* ------------All content------------ */
+/* ------------All elements------------ */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 
-/* -----------Header----------- */
+/* -----------Header---------- */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
